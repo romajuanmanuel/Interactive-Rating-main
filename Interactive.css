@@ -4,6 +4,7 @@
   display: flex;
   justify-content: center;
   min-width: 500px;
+  position:relative;
 }
 
 
@@ -17,6 +18,7 @@
   justify-content: center;
   margin: 0;
   padding: 0;
+  position:relative;
 }
 
 
@@ -36,7 +38,7 @@
 .buttonBox {
   display: flex;
   justify-content: center;
-  margin: 10%;
+ /* margin: 10%;*/
 }
 
 
@@ -62,7 +64,23 @@
 }
 
 .button:hover {
-  background-color: rgb(255, 117, 15);
+  background-color: #7d8798;
+}
+
+.button:active{
+  background-color: rgb(255, 117, 15) ;
+}
+
+.starbutton{
+  width: 50px; 
+  height: 50px;  
+  background-color: rgb(38, 47, 56);
+  border-radius: 50%; 
+  margin: 20px;
+  font-size: 15px;
+  margin-bottom: auto;
+  border-color:rgb(38, 47, 56) ;
+  
 }
 
 
@@ -74,9 +92,19 @@
   padding: 10px;
   border-radius: 10px;
   background-color: rgb(255, 117, 15);
+  display: flex; /* Permite utilizar align-items y justify-content */
+  align-items: center; /* Alineación vertical */
+  justify-content: center; /* Alineación horizontal */
+  width: 50%; /* Tamaño del 50% del contenedor */
+  margin: 0 auto; /* Centrado horizontalmente */
 }
 
 .submit:hover {
+  box-shadow: 5px 5px 10px 2px rgba(0,0,0,.8);
+}
+
+
+.submit:active{
   color: rgb(255, 117, 15);
   background-color: white;
 }

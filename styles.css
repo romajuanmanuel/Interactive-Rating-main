@@ -20,7 +20,6 @@
   padding: 0;
   position: relative;
   margin-top: 5%;
-  /*display:flex;*/
 }
 
 .container h1 {
@@ -28,13 +27,18 @@
   color: white;
   padding-left: 25px;
   font-family: "Overpass", sans-serif;
+  position:relative;
+  top:10%;
 }
 
 .container h2 {
   font-size: 15px;
   color: rgb(139, 145, 135);
   padding-left: 25px;
+  padding-right: 25px;
   font-family: "Overpass", sans-serif;
+  position:relative;
+  top:10%;
 }
 
 .buttonBox {
@@ -42,6 +46,8 @@
   display: flex;
   justify-content: center;
   margin-top: 10%;
+  position:relative;
+  top:10%;
 }
 
 .attribution {
@@ -84,6 +90,9 @@
   font-size: 15px;
   margin-bottom: auto;
   border-color: rgb(38, 47, 56);
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 .submit {
@@ -100,6 +109,8 @@
   width: 50%;
   margin: 0 auto;
   margin-top: 10%;
+  position:relative;
+  top:10%;  
 }
 
 .submit:hover {

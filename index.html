@@ -36,6 +36,7 @@
         <button class="star">5</button>
       </div>
       <script>
+        localStorage.clear();
         const allStars = document.querySelectorAll('.star');
         allStars.forEach((star, i) => {
           star.addEventListener('click', () => {
@@ -45,9 +46,20 @@
         });
       </script>
       <button id="myButton" class="submit">
-        Submit
-      </button>
 
+        Submit
+
+      </button>
+      <script>
+        const submitButton = document.getElementById("myButton");
+        submitButton.disabled = true;
+        const starButtons = document.querySelectorAll('.star');
+        starButtons.forEach(button => {
+          button.addEventListener('click', () => {
+            submitButton.disabled = false;
+          });
+        });
+      </script>
       <script type="text/javascript">
         document.getElementById("myButton").onclick = function () {
           location.href = "/prueba.html";

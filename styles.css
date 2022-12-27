@@ -13,13 +13,14 @@
   width: 100%;
   background-color: hsl(216, 12%, 8%);
   border-radius: 10%;
-  text-align: left;
+  text-align: center;
   align-items: center;
   justify-content: center;
   margin: 0;
   padding: 0;
   position: relative;
   margin-top: 5%;
+  /*display:flex;*/
 }
 
 .container h1 {
@@ -70,9 +71,9 @@
   cursor: pointer;
 }
 
-/*.star:active {
+.star:focus {
   background-color: rgb(255, 117, 15);
-}*/
+}
 
 .starbutton {
   width: 50px;
@@ -108,4 +109,24 @@
 .submit:active {
   color: rgb(255, 117, 15);
   background-color: white;
+}
+
+.thankYou {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.footer {
+  position: fixed;
+  left: 50%;
+  transform: translate(-50%, 0);
+  display: flex;
+  justify-content: center;
+  white-space: nowrap;
+}
+
+p{
+  margin-top:50%;
 }

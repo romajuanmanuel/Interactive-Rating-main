@@ -35,22 +35,27 @@
         <button class="star">4</button>
         <button class="star">5</button>
       </div>
-
       <script>
         const allStars = document.querySelectorAll('.star');
         allStars.forEach((star, i) => {
           star.addEventListener('click', () => {
-            console.log(star);
-            console.log(i);
+            let currentStarLevel = i + 1;
+            localStorage.setItem("valor", currentStarLevel);
           });
         });
       </script>
-      <div class="submit">
+      <button id="myButton" class="submit">
         Submit
-      </div>
+      </button>
+
+      <script type="text/javascript">
+        document.getElementById("myButton").onclick = function () {
+          location.href = "/prueba.html";
+        };
+      </script>
     </div>
   </div>
-  <div class="holder">
+  <div class="footer">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
     Coded by <a href="#">Juan Manuel Roma</a>.
   </div>

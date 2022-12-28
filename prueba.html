@@ -50,11 +50,13 @@
                 </g>
             </svg>
         </div>
-        <p id="hi"> HOLA 0 de 5 </p>
+        <div class="pWrap">
+        <p id="hi"></p>
+        </div>
         <script>
             let val = localStorage.getItem("valor");
             let hola = document.querySelector(".hi");
-            hi.innerText = (`${val} of 5`);
+            hi.innerText = (`You selected ${val} out of 5`);
         </script>
     </div>
 

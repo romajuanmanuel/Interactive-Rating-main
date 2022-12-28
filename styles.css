@@ -1,3 +1,7 @@
+.body{
+  background-color: hsl(216, 12%, 8%);
+}
+
 .holder {
   max-width: 1440px;
   margin: 0 auto;
@@ -11,7 +15,7 @@
   height: 500px;
   max-width: 500px;
   width: 100%;
-  background-color: hsl(216, 12%, 8%);
+  background-color: hsl(213, 19%, 18%);
   border-radius: 10%;
   text-align: center;
   align-items: center;
@@ -50,26 +54,28 @@
   top:10%;
 }
 
+/*
 .attribution {
   font-size: 11px;
   text-align: center;
 }
 
 .attribution a {
-  color: hsl(228, 45%, 44%);
+  color: rgb(139, 145, 135);
   text-align: center;
   margin-top: 15%;
-}
+}*/
 
 .star {
   width: 50px;
   height: 50px;
-  background-color: rgb(38, 47, 56);
+  background-color: hsl(215, 17%, 26%);
   border-radius: 50%;
   color: white;
   margin: 20px;
   font-size: 15px;
   font-family: "Overpass", sans-serif;
+  border: none;
 }
 
 .star:hover {
@@ -84,15 +90,15 @@
 .starbutton {
   width: 50px;
   height: 50px;
-  background-color: rgb(38, 47, 56);
+  background-color: hsl(215, 17%, 26%);
   border-radius: 50%;
   margin: 20px;
   font-size: 15px;
   margin-bottom: auto;
-  border-color: rgb(38, 47, 56);
   position: absolute;
   top: 0;
   left: 0;
+  border: none;
 }
 
 .submit {
@@ -136,8 +142,29 @@
   display: flex;
   justify-content: center;
   white-space: nowrap;
+  color:white;
 }
 
 p{
+ color: rgb(255, 117, 15);
+ font-size: 15px;
+ font-family: "Overpass", sans-serif;
+ margin: auto;
+}
+
+.pWrap{
+  display: flex;
+  align-items: center;
   margin-top:50%;
+  position: absolute;
+  border-radius: 20px;
+  background-color: hsl(215, 17%, 26%);
+  width: 40%;
+  height: 5%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+body{
+  background-color: hsl(216, 12%, 8%);
 }

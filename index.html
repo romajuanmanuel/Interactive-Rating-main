@@ -31,12 +31,6 @@
         <button class="star">5</button>
       </div>
       <script>
-        document.querySelector('.buttonBox').addEventListener('click', function (event) {
-          if (event.target.matches('.star')) {
-            event.stopPropagation();
-            event.target.focus();
-          }
-        });
         const firstButton = document.getElementById("estrella");
         firstButton.disabled = true;
         localStorage.clear();
@@ -63,7 +57,7 @@
       </script>
       <script type="text/javascript">
         document.getElementById("myButton").onclick = function () {
-          location.href = "prueba.html";
+          location.href = "submitted.html";
         };
       </script>
     </div>

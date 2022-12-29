@@ -30,9 +30,9 @@ Users should be able to:
 
 ### Screenshot
 
-![scr01](./images\Screenshot01.png?raw=true "Main")
+![scr01](./images/Screenshot01.png "Main")
 
-![scr02](./images\Screenshot02.png?raw=true "Submit")
+![scr02](./images/Screenshot02.png "Submit")
 
 
 ### Links

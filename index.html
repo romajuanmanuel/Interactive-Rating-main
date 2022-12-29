@@ -31,12 +31,12 @@
         <button class="star">5</button>
       </div>
       <script>
-       document.querySelector('.buttonBox').addEventListener('click', function(event) {
-  if (event.target.matches('.star')) {
-    event.stopPropagation();
-    event.target.focus();
-  }
-});
+        document.querySelector('.buttonBox').addEventListener('click', function (event) {
+          if (event.target.matches('.star')) {
+            event.stopPropagation();
+            event.target.focus();
+          }
+        });
         const firstButton = document.getElementById("estrella");
         firstButton.disabled = true;
         localStorage.clear();
@@ -72,7 +72,6 @@
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"> Frontend Mentor</a>.
     Coded by <a href="#">Juan Manuel Roma</a>.
   </div>
-
 </body>
 
 </html>

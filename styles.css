@@ -1,8 +1,8 @@
-.body{
+.body {
   background-color: hsl(216, 12%, 8%);
 }
 
-body{
+body {
   background-color: hsl(216, 12%, 8%);
 }
 
@@ -35,8 +35,8 @@ body{
   color: white;
   padding-left: 25px;
   font-family: "Overpass", sans-serif;
-  position:relative;
-  top:10%;
+  position: relative;
+  top: 10%;
 }
 
 .container h2 {
@@ -45,8 +45,8 @@ body{
   padding-left: 25px;
   padding-right: 25px;
   font-family: "Overpass", sans-serif;
-  position:relative;
-  top:10%;
+  position: relative;
+  top: 10%;
 }
 
 .buttonBox {
@@ -54,8 +54,8 @@ body{
   display: flex;
   justify-content: center;
   margin-top: 10%;
-  position:relative;
-  top:10%;
+  position: relative;
+  top: 10%;
 }
 
 /*
@@ -119,8 +119,8 @@ body{
   width: 50%;
   margin: 0 auto;
   margin-top: 10%;
-  position:relative;
-  top:10%;  
+  position: relative;
+  top: 10%;
 }
 
 .submit:hover {
@@ -132,7 +132,6 @@ body{
   background-color: white;
 }
 
-
 .footer {
   position: fixed;
   left: 50%;
@@ -140,20 +139,20 @@ body{
   display: flex;
   justify-content: center;
   white-space: nowrap;
-  color:white;
+  color: white;
 }
 
-.pWrap p{
- color: rgb(255, 117, 15);
- font-size: 15px;
- font-family: "Overpass", sans-serif;
- margin: auto;
+.pWrap p {
+  color: rgb(255, 117, 15);
+  font-size: 15px;
+  font-family: "Overpass", sans-serif;
+  margin: auto;
 }
 
-.pWrap{
+.pWrap {
   display: flex;
   align-items: center;
-  margin-top:45%;
+  margin-top: 45%;
   position: absolute;
   border-radius: 20px;
   background-color: hsl(215, 17%, 26%);
@@ -163,18 +162,15 @@ body{
   transform: translateX(-50%);
 }
 
-.thyou{
-  margin-top:60%;
-  /*margin-left:3%;
-  margin-right:3%;*/
-
+.thyou {
+  margin-top: 60%;
 }
-.thyou p{
-  color:white;
+.thyou p {
+  color: white;
   font-size: 30px;
   font-family: "Overpass", sans-serif;
 }
-.thyou h2{
+.thyou h2 {
   text-align: center;
   font-size: 15px;
   font-family: "Overpass", sans-serif;

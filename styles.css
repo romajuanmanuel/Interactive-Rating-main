@@ -2,6 +2,10 @@
   background-color: hsl(216, 12%, 8%);
 }
 
+body{
+  background-color: hsl(216, 12%, 8%);
+}
+
 .holder {
   max-width: 1440px;
   margin: 0 auto;
@@ -83,7 +87,7 @@
   cursor: pointer;
 }
 
-.star:focus {
+.star:focus-within {
   background-color: rgb(255, 117, 15);
 }
 
@@ -128,12 +132,6 @@
   background-color: white;
 }
 
-.thankYou {
-  position: absolute;
-  top: 25%;
-  left: 50%;
-  transform: translate(-50%, 0);
-}
 
 .footer {
   position: fixed;
@@ -145,7 +143,7 @@
   color:white;
 }
 
-p{
+.pWrap p{
  color: rgb(255, 117, 15);
  font-size: 15px;
  font-family: "Overpass", sans-serif;
@@ -155,7 +153,7 @@ p{
 .pWrap{
   display: flex;
   align-items: center;
-  margin-top:50%;
+  margin-top:45%;
   position: absolute;
   border-radius: 20px;
   background-color: hsl(215, 17%, 26%);
@@ -165,6 +163,26 @@ p{
   transform: translateX(-50%);
 }
 
-body{
-  background-color: hsl(216, 12%, 8%);
+.thyou{
+  margin-top:60%;
+  /*margin-left:3%;
+  margin-right:3%;*/
+
+}
+.thyou p{
+  color:white;
+  font-size: 30px;
+  font-family: "Overpass", sans-serif;
+}
+.thyou h2{
+  text-align: center;
+  font-size: 15px;
+  font-family: "Overpass", sans-serif;
+}
+
+.thankYou {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, 0);
 }
